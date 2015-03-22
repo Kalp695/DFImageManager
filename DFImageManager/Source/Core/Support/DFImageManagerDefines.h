@@ -21,7 +21,10 @@
 // THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
+
+#if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
+#endif
 
 /* Size to pass when requesting the largest image for resource available (contentMode will be ignored).
  */
